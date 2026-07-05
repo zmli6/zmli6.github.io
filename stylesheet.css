@@ -102,6 +102,16 @@ h3 {
   font-size: 16px;
 }
 
+.reviewer-row {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.reviewer-col {
+  flex: 1;
+}
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -177,6 +187,10 @@ span.highlight {
 @media screen and (max-width: 500px) {
   .fixed-header{
     display: none;
+  }
+  .reviewer-row {
+    flex-direction: column;
+    gap: 10px;
   }
   .paper_image{
     display: none;
