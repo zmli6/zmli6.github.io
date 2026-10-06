@@ -305,9 +305,17 @@ p:last-child { margin-bottom: 0; }
 
 .news-list {
   list-style: none;
-  padding: 0;
+  padding: 0 10px 0 0;
   margin: 0;
+  max-height: 196px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule) transparent;
 }
+.news-list::-webkit-scrollbar { width: 6px; }
+.news-list::-webkit-scrollbar-track { background: transparent; }
+.news-list::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
+.news-list::-webkit-scrollbar-thumb:hover { background: var(--ink-muted); }
 .news-list li {
   display: grid;
   grid-template-columns: 72px 1fr;
@@ -320,7 +328,6 @@ p:last-child { margin-bottom: 0; }
   font-size: 0.9rem;
   padding-top: 1px;
 }
-.news-list li.is-hidden { display: none; }
 
 .text-button {
   border: 0;

@@ -15,29 +15,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // News: show the first N items, reveal the rest on demand
-  var newsList = document.querySelector('.news-list');
-  var newsBtn = document.querySelector('[data-toggle="news"]');
-  if (newsList && newsBtn) {
-    var visible = parseInt(newsList.dataset.visible, 10) || 5;
-    var items = Array.prototype.slice.call(newsList.children);
-    var hidden = items.slice(visible);
-    if (hidden.length === 0) {
-      newsBtn.hidden = true;
-    } else {
-      var collapsed = true;
-      var render = function () {
-        hidden.forEach(function (li) { li.classList.toggle('is-hidden', collapsed); });
-        newsBtn.textContent = collapsed ? 'Show more (' + hidden.length + ')' : 'Show less';
-      };
-      render();
-      newsBtn.addEventListener('click', function () {
-        collapsed = !collapsed;
-        render();
-      });
-    }
-  }
-
   // Publications: toggle the preprint list
   var pubsBtn = document.querySelector('[data-toggle="pubs"]');
   var extra = document.querySelector('.pub-extra');
