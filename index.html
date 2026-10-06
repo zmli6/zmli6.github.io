@@ -1,375 +1,404 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ziming Li</title>
+  <meta name="author" content="Ziming Li">
+  <meta name="description" content="Ziming Li (李梓铭) is a Ph.D. student at the University of Connecticut working on LLM agents, post-training, and large language models.">
+  <meta property="og:title" content="Ziming Li">
+  <meta property="og:description" content="Ph.D. student at UConn working on LLM agents, post-training, and large language models.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zmli6.github.io/">
+  <meta property="og:image" content="https://zmli6.github.io/images/myself.webp">
+  <link rel="icon" href="images/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
 
-    <title>Ziming Li</title>
+<body>
 
-    <meta name="author" content="Ziming Li">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/xuandongkaishu/dist/XuandongKaishu/result.css' />
-    
-  </head>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://zmli6.github.io/" class="brand"><img src="images/icon.png" alt="" class="brand-icon">Ziming Li</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#bio">Bio</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Internships</a>
+        <a href="#service">Service</a>
+        <a href="#awards">Awards</a>
+      </nav>
+    </div>
+  </header>
 
-  <body>
+  <main class="page">
 
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-bottom: 30px"><tbody>
-      <tr style="padding:0px">
-        <td class="fixed-header" style="font-size: larger">
-          <a href="https://zmli6.github.io/" style="padding-right: 150px; font-size: large;" class="header_name"><img src="images/icon.png" style="width: 20px"> Ziming Li</a>
-          <a href="#bio" style="padding-right: 30px;padding-left: 30px" class="header_navi">Bio</a>
-          <a href="#publication" style="padding-right: 30px;padding-left: 30px" class="header_navi">Publications</a>
-          <a href="#service" style="padding-right: 30px;padding-left: 30px" class="header_navi">Services</a>
-          <a href="#award" style="padding-right: 30px;padding-left: 30px" class="header_navi">Awards</a>
-        </td>
-      </tr>
-    </tbody></table>
+    <!-- Profile -->
+    <section class="profile">
+      <div class="profile-photo">
+        <img src="images/myself.webp" alt="Portrait of Ziming Li" width="480" height="720">
+      </div>
+      <div class="profile-info">
+        <h1 class="name">Ziming Li <span class="chinese-name">李梓铭</span></h1>
+        <p class="role">Ph.D. student in Computer Science</p>
+        <p class="affil">School of Computing, University of Connecticut (UConn)</p>
+        <p class="affil">Advised by Prof. <a href="https://chuxuzhang.github.io/" target="_blank" rel="noopener">Chuxu Zhang</a></p>
+        <ul class="links">
+          <li><a href="mailto:ziming.li@uconn.edu">Email</a></li>
+          <li><a href="https://scholar.google.com/citations?hl=en&user=qAHDcw0AAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a href="https://github.com/zmli6" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ziming-li-10958534b/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+        <p class="notice">Actively seeking a research internship for Summer 2027.</p>
+      </div>
+    </section>
 
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 20px;"><tbody>
-            <tr>
-              <td class="personal_image" style="padding:2.5%; width:40%;max-width:40%">
-                <img style="width:70%;max-width:100%;object-fit: cover;border-radius: 200px" alt="profile photo" src="images/myself.jpg" class="personal_img">
-              </td>
+    <!-- Biography -->
+    <section id="bio" class="block">
+      <h2>Biography</h2>
+      <p>
+        I am a Ph.D. student in the School of Computing at the <a href="https://uconn.edu/" target="_blank" rel="noopener">University of Connecticut</a>,
+        advised by Prof. <a href="https://chuxuzhang.github.io/" target="_blank" rel="noopener">Chuxu Zhang</a>.
+        Before that, I obtained my master's degree from <a href="https://www.hnu.edu.cn/" target="_blank" rel="noopener">Hunan University</a>
+        under the supervision of Prof. <a href="https://youhuanli.github.io/" target="_blank" rel="noopener">Youhuan Li</a>,
+        and my bachelor's degree from <a href="https://www.scnu.edu.cn/" target="_blank" rel="noopener">South China Normal University</a>.
+        I am deeply grateful to Prof. Youhuan Li, whose guidance allowed me to experience the fascinating world of scientific research.
+      </p>
+    </section>
 
-              <td style="width:63%;vertical-align:middle">
-                <p class="name" style="text-align: left;">
-                  Ziming Li <span style="padding-left: 5px" class="chinese_name">李梓铭</span>
-                </p>
-                <p>
-                  Ph.D student
-                </p>
-                <p>
-                  School of Computing, College of Engineering
-                </p>
-                <p>
-                  University of Connecticut(UConn)
-                </p>
-                <p>
-                  Email: ziming.li@uconn.edu
-                </p>
-                <p style="text-align:left">
-                  <!-- <a href="https://scholar.google.com/citations?hl=zh-CN&user=Li7oZpsAAAAJ" target="_blank">
-                    [<span style="color: #4285F4; margin-right: -2px">G</span>
-                    <span style="color: #EA4335; margin-right: -2px">o</span>
-                    <span style="color: #FBBC05; margin-right: -2px">o</span>
-                    <span style="color: #4285F4; margin-right: -2px">g</span>
-                    <span style="color: #34A853; margin-right: -2px">l</span>
-                    <span style="color: #EA4335; margin-right: -2px">e</span> &nbsp Scholar]</a> &nbsp;&nbsp; -->
-                  <a href="https://github.com/zmli6" target="_blank"><strong style="color: black">[GitHub]</strong></a>
-                </p>
-              </td>
+    <!-- Research -->
+    <section id="research" class="block">
+      <h2>Research Interests</h2>
+      <p>
+        I work on <strong>large language models</strong>, with a focus on <strong>LLM agents</strong> and <strong>post-training</strong>.
+        I am interested in how agents decide when and how much to think, and how training can make such decisions reliable across environments.
+        Before moving to LLMs, I worked on <strong>databases</strong> and <strong>graphs</strong>, including subgraph matching, graph query processing, and graph neural networks for database systems.
+        If you are interested in collaboration, feel free to <a href="mailto:ziming.li@uconn.edu">contact me</a>.
+      </p>
+    </section>
 
-            </tr>
-          </tbody></table>
+    <!-- News -->
+    <section id="news" class="block">
+      <h2>News</h2>
+      <ul class="news-list" data-visible="5">
+        <li><time>2026-09</time><span>One paper accepted to <strong>NeurIPS 2026</strong>.</span></li>
+        <li><time>2026-09</time><span>One paper accepted to <strong>EMNLP 2026</strong> (Oral).</span></li>
+        <li><time>2026-05</time><span>Received the UConn SoC Predoctoral Fellowship.</span></li>
+        <li><time>2026-05</time><span>Joined <a href="https://www.antgroup.com/" target="_blank" rel="noopener">Ant Group</a> as a research intern.</span></li>
+        <li><time>2026-04</time><span>One paper accepted to <strong>ICML 2026</strong>.</span></li>
+        <li><time>2026-04</time><span>Passed the Ph.D. qualifying exam.</span></li>
+        <li><time>2026-03</time><span>Invited to serve as a reviewer for ICML 2026.</span></li>
+        <li><time>2026-01</time><span>Invited to serve as a PC member for PAKDD 2026.</span></li>
+        <li><time>2025-04</time><span>One paper accepted to <strong>IJCAI 2025</strong> (Survey Track).</span></li>
+        <li><time>2025-01</time><span>One paper accepted to <strong>SIGMOD 2025</strong>.</span></li>
+        <li><time>2024-08</time><span>One paper accepted to <strong>WSDM 2025</strong>.</span></li>
+        <li><time>2024-03</time><span>One paper accepted to <strong>ICDE 2024</strong>.</span></li>
+        <li><time>2023-03</time><span>One paper accepted to <strong>ICDE 2023</strong>.</span></li>
+      </ul>
+      <button class="text-button" data-toggle="news">Show more</button>
+    </section>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 20px;"><tbody>
-            <tr>
-              <td style="width:100%; vertical-align:middle">
-                <h2 id="bio" style="scroll-margin-top: 45px;">
-                  Biography
-                </h2>
-                <p>
-                  <!-- I'm currently a third-year master student at <a href="https://www.hnu.edu.cn/" target="_blank">Hunan university</a>, advised by Prof. <a href="https://csee.hnu.edu.cn/people/liyouhuan" target="_blank">Youhuan Li</a>, where I develop the scientific ability.
-                  I will be joining the <a href="https://chuxuzhang.github.io/Lab/lab_index.html" target="_blank">Machine Intelligence and Data Science Lab</a> at the <a href="https://uconn.edu/" target="_blank">University of Connecticut</a> in the fall of 2025, under the supervision of Prof. <a href="https://chuxuzhang.github.io/" target="_blank">Chuxu Zhang</a>. -->
-                  I am currently a Ph.D. student advised by Prof. <a href="https://chuxuzhang.github.io/" target="_blank">Chuxu Zhang</a>. Prior to this, I obtained my master's degree under the supervision of Prof. <a href="https://youhuanli.github.io/" target="_blank">Youhuan Li</a>. I am deeply grateful to Prof. Youhuan Li, whose guidance allowed me to experience the fascinating world of scientific research.
-                </p>
+    <!-- Publications -->
+    <section id="publications" class="block">
+      <h2>Publications</h2>
+      <p class="muted">
+        Selected publications are listed below; <button class="text-button inline" data-toggle="pubs">show full list</button>.
+        Full list also on <a href="https://scholar.google.com/citations?hl=en&user=qAHDcw0AAAAJ" target="_blank" rel="noopener">Google Scholar</a>.
+        My name is in bold.
+      </p>
 
-                <!-- <p>
-                  <em class="ref">
-                    Research is for curiosity and fun.
-                  </em>
-                </p> -->
+      <div class="pub-group">
+        <h3 class="year">2026</h3>
 
-                <!-- <p>
-                  I am interested in general deep learning topics, including algorithms, theories, systems and its applications on vision, language scenarios.
-                  My long-term goal is to build a strong, efficient (reach human-level), and safe (surpass human level) AI agent.
-                  Now I am mainly focusing on embodied AI algorithms. Previously, I also conducted research on efficient AI algorithms.
-                </p> -->
-              </td>
-            </tr>
-          </tbody></table>
+        <article class="pub" id="pub-dial">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2605.06908" target="_blank" rel="noopener">
+            <img src="images/DIAL.webp" alt="DIAL framework overview" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">NeurIPS 2026</span><span class="tag first">First author</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2605.06908" target="_blank" rel="noopener">Same Signal, Opposite Meaning: Direction-Informed Adaptive Learning for LLM Agents</a>
+            <p class="pub-authors"><strong>Ziming Li</strong>, Jiatan Huang, Xiaoguang Guo, Guilin Wang, Chuxu Zhang</p>
+            <p class="pub-venue">Neural Information Processing Systems (NeurIPS), 2026</p>
+            <p class="pub-links">
+              <a href="https://arxiv.org/abs/2605.06908" target="_blank" rel="noopener">paper</a>
+              <a href="https://github.com/zmli6/DIAL" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="pub-desc">The same uncertainty or difficulty signal can indicate opposite compute utility across environments and backbones. DIAL learns when additional test-time computation actually helps instead of assuming a fixed signal direction.</p>
+          </div>
+        </article>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 20px;"><tbody>
-          <tr>
-            <td style="width:100%; vertical-align:middle">
-              <h2>
-                News
-              </h2>
-              <div class="scrollable" style="max-height:130px; overflow-y:scroll; padding-right:10px; margin-top: 10px; margin-bottom: 10px">
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-09] One paper accepted in NeurIPS 2026.
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-09] One paper accepted in EMNLP 2026(Oral).
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-05] UCONN SoC Predoctoral Fellowship, 2026.
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-05] I joined Ant Group as a Research Intern.
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-04] One paper accepted in ICML 2026.
-                </p> 
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-04] Pass the PhD qualify exam :)
-                </p> 
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-03] I was invited to serve as a reviewer for ICML 2026.
-                </p> 
-                <p>
-                  <span style="font-size: smaller">➤</span> [2026-01] I was invited to serve as a PC member for PAKDD 2026.
-                </p> 
-                <p>
-                  <span style="font-size: smaller">➤</span> [2025-04] One paper accepted in IJCAI Survey 2025.
-                </p>               
-                <p>
-                  <span style="font-size: smaller">➤</span> [2025-01] One paper accepted in SIGMOD 2025.
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2024-08] One paper accepted in WSDM 2025.
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2024-03] One paper accepted in ICDE 2024.
-                </p>
-                <p>
-                  <span style="font-size: smaller">➤</span> [2023-03] One paper accepted in ICDE 2023.
-                </p>
-              </div>
-            </td>
-          </tr>
-          </tbody></table>
+        <article class="pub" id="pub-gsub">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2601.22384" target="_blank" rel="noopener">
+            <img src="images/g-sub.webp" alt="G-Substrate overview" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">ICML 2026</span><span class="tag first">First author</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2601.22384" target="_blank" rel="noopener">Graph is a Substrate Across Data Modalities</a>
+            <p class="pub-authors"><strong>Ziming Li</strong>, Xiao-Ming Wu, Zehong Wang, Jiazheng Li, Yijun Tian, Jinhe Bi, Yunpu Ma, Yanfang Ye, Chuxu Zhang</p>
+            <p class="pub-venue">International Conference on Machine Learning (ICML), 2026</p>
+            <p class="pub-links">
+              <a href="https://arxiv.org/abs/2601.22384" target="_blank" rel="noopener">paper</a>
+              <a href="https://github.com/zmli6/G-Substrate" target="_blank" rel="noopener">code</a>
+              <a href="https://huggingface.co/zmli/G-Substrate-Qwen3-VL-2B" target="_blank" rel="noopener">model</a>
+              <a href="https://huggingface.co/datasets/zmli/G-Substrate-Data" target="_blank" rel="noopener">dataset</a>
+            </p>
+            <p class="pub-desc">Graph structure is treated as a persistent structural substrate shared across modalities and tasks rather than rebuilt per task. A unified structural schema and interleaved role-based training outperform task-isolated and naive multi-task baselines.</p>
+          </div>
+        </article>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 0px; margin-bottom: -10px;"><tbody>
-            <tr>
-              <td style="width:80%; vertical-align:middle">
-                <h2 id="publication" style="scroll-margin-top: 45px;">Selected Publications</h2>
-                <p>
-                  Below are my selected publications.
-                  <!-- (& means equal contribution, * refers to corresponding author.) -->
-                </p>
-              </td>
-            </tr>
-           </tbody></table>
+        <article class="pub" id="pub-mdforge">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2606.12916" target="_blank" rel="noopener">
+            <img src="images/MDForge.webp" alt="MDForge framework" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">EMNLP 2026</span><span class="tag oral">Oral</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2606.12916" target="_blank" rel="noopener">MDForge: Agentic Molecular Dynamics Pipeline Design under Sparse Simulator Feedback</a>
+            <p class="pub-authors">Zehong Wang, Yijun Ma, Connor R. Schmidt, Tianyi Ma, Weixiang Sun, <strong>Ziming Li</strong>, Xiaoguang Guo, Chuxu Zhang, Matthew J. Webber, Yanfang Ye</p>
+            <p class="pub-venue">Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026</p>
+            <p class="pub-links">
+              <a href="https://arxiv.org/abs/2606.12916" target="_blank" rel="noopener">paper</a>
+            </p>
+            <p class="pub-desc">An LLM agent designs molecular dynamics pipelines from verbal rewards produced by expert debate, matching human specialists on binding free-energy benchmarks and discovering an experimentally validated high-affinity binder.</p>
+          </div>
+        </article>
+      </div>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 20px;"><tbody>
-            <tr>
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/DIAL.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="https://arxiv.org/abs/2601.22384" target="_blank">
-                  <span class="papertitle">DIAL: Direction-Informed Adaptive Learning for LLM Agents</span>
-                </a>
-                <br>
-                <strong>Ziming Li</strong>, Jiatan Huang, Xiaoguang Guo, Guilin Wang, Chuxu Zhang.
-                <br>
-                <em> Neural Information Processing Systems (NeurIPS)</em>, 2026.
-                <br>
-                <a href="https://github.com/zmli6/DIAL" target="_blank">code</a>
-                /
-                <a href="https://arxiv.org/abs/2605.06908" target="_blank">paper</a>
-              <p style="margin-bottom: 15px; margin-top: 5px">
-                <strong>(Adaptive Test-Time Compute)</strong> This paper proposes DIAL, a direction-informed framework for adaptive test-time compute in LLM agents, showing that the same uncertainty or difficulty signal can indicate opposite compute utility across environments and model backbones, and learning when additional computation is actually beneficial rather than assuming a fixed signal direction.
-              </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/g-sub.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="https://arxiv.org/abs/2601.22384" target="_blank">
-                  <span class="papertitle">Graph is a Substrate Across Data Modalities</span>
-                </a>
-                <br>
-                <strong>Ziming Li</strong>, Xiao-Ming Wu, Zehong Wang, Jiazheng Li, Yijun Tian, Jinhe Bi, Yunpu Ma, Yanfang Ye, Chuxu Zhang.
-                <br>
-                <em>International Conference on Machine Learning (ICML)</em>, 2026.
-                <br>
-                <a href="https://github.com/zmli6/G-Substrate" target="_blank">code</a>
-                /
-                <a href="https://huggingface.co/zmli/G-Substrate-Qwen3-VL-2B" target="_blank">model</a>
-                /
-                <a href="https://huggingface.co/datasets/zmli/G-Substrate-Data" target="_blank">dataset</a>
-                /
-                <a href="https://arxiv.org/abs/2601.22384" target="_blank">paper</a>
-                <p style="margin-bottom: 15px; margin-top: 5px">
-                  <strong>(Graph Structure)</strong> This paper proposes G-Substrate, a framework that treats graph structure as a persistent "structural substrate" shared across modalities and tasks rather than being rebuilt per task, using a unified structural schema and an interleaved role-based training strategy to outperform task-isolated and naive multi-task baselines.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/RSM.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="https://dl.acm.org/doi/10.1145/3701551.3703516" target="_blank">
-                  <span class="papertitle">RSM: Reinforced Subgraph Matching Framework with Fine-grained Operation based Search Plan</span>
-                </a>
-                <br>
-                <strong>Ziming Li</strong>, Yuequn Dou, Youhuan Li, Xinhuan Chen, Chuxu Zhang.
-                <br>
-                <em>International Conference on Web Search and Data Mining (WSDM)</em>, 2025. Oral.
-                <br>
-                <a href="https://github.com/zmli6/RSM" target="_blank">code</a>
-                /
-                <a href="https://dl.acm.org/doi/10.1145/3701551.3703516" target="_blank">paper</a>
-                <p style="margin-bottom: 15px; margin-top: 5px">
-                  <strong>(RL Subgraph Matching)</strong> We propose a new search framework in machine learning subgraph matching and employ reinforced learning and gnn to generate search plan.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/newsp.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="https://ieeexplore.ieee.org/document/10597892" target="_blank">
-                  <span class="papertitle">NewSP: A New Search Process for Continuous Subgraph Matching over Dynamic Graphs</span>
-                </a>
-                <br>
-                <strong>Ziming Li</strong>, Youhuan Li, Xinhuan Chen, Lei Zou, Xiaofeng Yang, Yang Li, Hongbo Jiang.
-                <br>
-                <em>International Conference on Data Engineering (ICDE)</em>, 2024.
-                <br>
-                <a href="https://github.com/hnuGraph/NewSP" target="_blank">code</a>
-                /
-                <a href="https://ieeexplore.ieee.org/document/10597892" target="_blank">paper</a>
-                <p style="margin-bottom: 15px; margin-top: 5px">
-                  <strong>(Continuous Subgraph Matching)</strong> We propose a new search process in Continuous Subgraph Matching(CSM) problem with multi-expand, cache reuse and adaptive check strategies.
-                </p>
-              </td>
-            </tr>
-            <tr>
+      <div class="pub-group">
+        <h3 class="year">2025</h3>
 
-            <tr>
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/survey.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="" target="_blank">
-                  <span class="papertitle">Graph Neural Networks for Databases: A Survey</span>
-                </a>
-                <br>
-                <strong>Ziming Li</strong>, Youhuan Li, Yuyu Luo, Guoliang Li, Chuxu Zhang.
-                <br>
-                <em>International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025.
-                <br>
-                <a href="https://arxiv.org/pdf/2502.12908" target="_blank">paper</a>
-                <p style="margin-bottom: 15px; margin-top: 5px">
-                  <strong>(GNN4DB)</strong> This survey aims to bridge this gap by providing a structured and in-depth overview of GNNs for DB systems.
-                </p>
-              </td>
-            </tr>
+        <article class="pub" id="pub-rsm">
+          <a class="pub-thumb" href="https://dl.acm.org/doi/10.1145/3701551.3703516" target="_blank" rel="noopener">
+            <img src="images/RSM.webp" alt="RSM framework" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">WSDM 2025</span><span class="tag oral">Oral</span><span class="tag first">First author</span></div>
+            <a class="pub-title" href="https://dl.acm.org/doi/10.1145/3701551.3703516" target="_blank" rel="noopener">RSM: Reinforced Subgraph Matching Framework with Fine-grained Operation based Search Plan</a>
+            <p class="pub-authors"><strong>Ziming Li</strong>, Yuequn Dou, Youhuan Li, Xinhuan Chen, Chuxu Zhang</p>
+            <p class="pub-venue">ACM International Conference on Web Search and Data Mining (WSDM), 2025</p>
+            <p class="pub-links">
+              <a href="https://dl.acm.org/doi/10.1145/3701551.3703516" target="_blank" rel="noopener">paper</a>
+              <a href="https://github.com/zmli6/RSM" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="pub-desc">A new search framework for learned subgraph matching that uses reinforcement learning and GNNs to generate fine-grained search plans.</p>
+          </div>
+        </article>
 
-            <tr>
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/Matco.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="" target="_blank">
-                  <span class="papertitle">MatCo: Computing Match Cover of Subgraph Query over Graph Data</span>
-                </a>
-                <br>
-                Zhichao Shi, Youhuan Li, <strong>Ziming Li</strong>, Yuequn Dou, Xionghu Zhong, Lei Zou.
-                <br>
-                <em>International Conference on Management of Data (SIGMOD)</em>, 2025.
-                <br>
-                <a href="https://github.com/hnuGraph/MatCo" target="_blank">code</a>
-                /
-                <a href="" target="_blank">paper</a>
-                <p style="margin-bottom: 15px; margin-top: 5px">
-                  <strong>(Subgraph Match Cover)</strong> We propose a new problem to compute the match cover of a subgraph query.
-                  We define the match cover as a subset of answers such that the vertices included are exactly the same as those in the entire set.
-                </p>
-              </td>
-            </tr>
+        <article class="pub" id="pub-survey">
+          <a class="pub-thumb" href="https://arxiv.org/abs/2502.12908" target="_blank" rel="noopener">
+            <img src="images/survey.webp" alt="GNN for databases survey taxonomy" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">IJCAI 2025</span><span class="tag first">First author</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2502.12908" target="_blank" rel="noopener">Graph Neural Networks for Databases: A Survey</a>
+            <p class="pub-authors"><strong>Ziming Li</strong>, Youhuan Li, Yuyu Luo, Guoliang Li, Chuxu Zhang</p>
+            <p class="pub-venue">International Joint Conference on Artificial Intelligence (IJCAI), Survey Track, 2025</p>
+            <p class="pub-links">
+              <a href="https://arxiv.org/abs/2502.12908" target="_blank" rel="noopener">paper</a>
+            </p>
+            <p class="pub-desc">A structured and in-depth overview of how graph neural networks are applied inside database systems.</p>
+          </div>
+        </article>
 
-              <td class="paper_image" style="padding: 20px; width:25%;vertical-align:middle">
-                <img src="images/vend.png" alt="PontTuset" width="200" style="border-style: none">
-              </td>
-              <td style="width:75%; vertical-align:middle">
-                <a href="https://ieeexplore.ieee.org/document/10184618" target="_blank">
-                  <span class="papertitle">VEND: Vertex Encoding for Edge Nonexistence Determination</span>
-                </a>
-                <br>
-                Youhuan Li, Hangyu Zheng, Lei Zou, Xiaosen Li, <strong>Ziming Li</strong>, Pin Xiao, Yangyu Tao, Zheng Qin.
-                <br>
-                <em>International Conference on Data Engineering (ICDE)</em>, 2023.
-                <br>
-                <a href="https://github.com/hnuGraph/VEND" target="_blank">code</a>
-                /
-                <a href="https://ieeexplore.ieee.org/document/10184618" target="_blank">paper</a>
-                <p style="margin-bottom: 15px; margin-top: 5px">
-                  <strong>(Graph Query)</strong> We propose to design vertex encoding for determinations of no-result edge queries that should not be executed.
-                </p>
-              </td>
-            </tr>
+        <article class="pub" id="pub-matco">
+          <a class="pub-thumb" href="https://doi.org/10.1145/3725323" target="_blank" rel="noopener">
+            <img src="images/Matco.webp" alt="MatCo illustration" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">SIGMOD 2025</span></div>
+            <a class="pub-title" href="https://doi.org/10.1145/3725323" target="_blank" rel="noopener">MatCo: Computing Match Cover of Subgraph Query over Graph Data</a>
+            <p class="pub-authors">Zhichao Shi, Youhuan Li, <strong>Ziming Li</strong>, Yuequn Dou, Xionghu Zhong, Lei Zou</p>
+            <p class="pub-venue">ACM SIGMOD International Conference on Management of Data (SIGMOD), 2025</p>
+            <p class="pub-links">
+              <a href="https://doi.org/10.1145/3725323" target="_blank" rel="noopener">paper</a>
+              <a href="https://github.com/hnuGraph/MatCo" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="pub-desc">Introduces the match cover of a subgraph query: a subset of answers whose vertices are exactly those covered by the entire answer set.</p>
+          </div>
+        </article>
+      </div>
 
+      <div class="pub-group">
+        <h3 class="year">2024</h3>
 
-          </tbody></table>
+        <article class="pub" id="pub-newsp">
+          <a class="pub-thumb" href="https://ieeexplore.ieee.org/document/10597892" target="_blank" rel="noopener">
+            <img src="images/newsp.webp" alt="NewSP search process" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">ICDE 2024</span><span class="tag first">First author</span></div>
+            <a class="pub-title" href="https://ieeexplore.ieee.org/document/10597892" target="_blank" rel="noopener">NewSP: A New Search Process for Continuous Subgraph Matching over Dynamic Graphs</a>
+            <p class="pub-authors"><strong>Ziming Li</strong>, Youhuan Li, Xinhuan Chen, Lei Zou, Xiaofeng Yang, Yang Li, Hongbo Jiang</p>
+            <p class="pub-venue">IEEE International Conference on Data Engineering (ICDE), 2024</p>
+            <p class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/10597892" target="_blank" rel="noopener">paper</a>
+              <a href="https://github.com/hnuGraph/NewSP" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="pub-desc">A new search process for continuous subgraph matching with multi-expand, cache reuse, and adaptive check strategies.</p>
+          </div>
+        </article>
+      </div>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 20px;"><tbody>
-          <tr>
-            <td style="width:100%; vertical-align:middle">
-              <h2 id="service" style="scroll-margin-top: 45px;">
-                Services and Activities
-              </h2>
-                <div class="reviewer-row">
-                  <div class="reviewer-col">
-                    <div style="padding-bottom: 5px"><strong>Journal Reviewer:</strong></div>
-                    <div style="padding-bottom: 5px">Information Fusion (IF)</div>
-                    <div style="padding-bottom: 5px">ACM Transactions on Intelligent Systems and Technology (ACM TIST)</div>
-                    <div style="padding-bottom: 5px">Transactions on Machine Learning Research (TMLR)</div>
-                    <div style="padding-bottom: 5px">Data Mining and Knowledge Discovery (DMKD)</div>
-                  </div>
-                  <div class="reviewer-col">
-                    <div style="padding-bottom: 5px"><strong>Conference Reviewer:</strong></div>
-                    <div style="padding-bottom: 5px">ICML 2026</div>
-                    <div style="padding-bottom: 5px">AAAI 2027</div>
-                    <div style="padding-bottom: 5px">WSDM 2027</div>
-                    <div style="padding-bottom: 5px">CIKM 2026</div>
-                    <div style="padding-bottom: 5px">PAKDD 2026</div>
-                    <div style="padding-bottom: 5px">ACML 2026</div>
-                  </div>
-                </div>
-            </td>
-          </tr>
+      <div class="pub-group">
+        <h3 class="year">2023</h3>
 
-          </tbody></table>
+        <article class="pub" id="pub-vend">
+          <a class="pub-thumb" href="https://ieeexplore.ieee.org/document/10184618" target="_blank" rel="noopener">
+            <img src="images/vend.webp" alt="VEND vertex encoding" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag venue">ICDE 2023</span></div>
+            <a class="pub-title" href="https://ieeexplore.ieee.org/document/10184618" target="_blank" rel="noopener">VEND: Vertex Encoding for Edge Nonexistence Determination</a>
+            <p class="pub-authors">Youhuan Li, Hangyu Zheng, Lei Zou, Xiaosen Li, <strong>Ziming Li</strong>, Pin Xiao, Yangyu Tao, Zheng Qin</p>
+            <p class="pub-venue">IEEE International Conference on Data Engineering (ICDE), 2023</p>
+            <p class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/10184618" target="_blank" rel="noopener">paper</a>
+              <a href="https://github.com/hnuGraph/VEND" target="_blank" rel="noopener">code</a>
+            </p>
+            <p class="pub-desc">Vertex encodings that determine edge nonexistence so that no-result edge queries are never executed.</p>
+          </div>
+        </article>
+      </div>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto; padding-left:20px; padding-bottom: 20px;"><tbody>
-          <tr>
-            <td style="width:100%; vertical-align:middle">
-              <h2 id="award" style="scroll-margin-top: 45px;">
-                Selected Awards
-              </h2>
-              <p>
-                <div style="padding-bottom: 5px"> UCONN SoC Predoctoral Fellowship, 2026. </div>
-                <div style="padding-bottom: 5px"> NSF Access Grant, 2026. </div>
-                <div style="padding-bottom: 5px"> National Scholarship of China for Graduate Student, 2024. </div>
-                <div style="padding-bottom: 5px"> Tencent Hornbill Elite Talent Development Program , 2023. </div>
-                <!-- <div style="padding-bottom: 5px"> First Prize, Academic Scholarship of Hunan University (湖南大学学业一等奖学金), 2022, 2023, 2024. </div> -->
+      <!-- Full list: preprints, hidden by default -->
+      <div class="pub-group pub-extra" hidden>
+        <h3 class="year">Preprints</h3>
 
-                <!-- <div style="padding-bottom: 5px"> Honorable Bachelor Degree of Shandong University (山东大学荣誉学士学位), 2022. </div>
-                <div style="padding-bottom: 5px"> National Scholarship of China for Undergraduate Student  (本科生国家奖学金), 2019, 2021. </div>
-                <div style="padding-bottom: 5px"> First Prize, Academic Scholarship of Shandong University (山东大学学业一等奖学金), 2019, 2020, 2021. </div> -->
-              </p>
-            </td>
-          </tr>
-          </tbody></table> 
+        <article class="pub compact" id="pub-proplay">
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag preprint">arXiv 2026</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2606.12780" target="_blank" rel="noopener">ProPlay: Procedural World Models for Self-Evolving LLM Agents</a>
+            <p class="pub-authors">Yijun Ma, Zehong Wang, Yiyang Li, <strong>Ziming Li</strong>, Xiaoguang Guo, Weixiang Sun, Chuxu Zhang, Yanfang Ye</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2606.12780" target="_blank" rel="noopener">paper</a></p>
+          </div>
+        </article>
 
-        </td>
-      </tr>
-    </table>
+        <article class="pub compact">
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag preprint">arXiv 2026</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2606.13477" target="_blank" rel="noopener">SupraBench: A Benchmark for Supramolecular Chemistry</a>
+            <p class="pub-authors">Tianyi Ma, Yijun Ma, Zehong Wang, Weixiang Sun, <strong>Ziming Li</strong>, Connor R. Schmidt, Chuxu Zhang, Matthew J. Webber, Yanfang Ye</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2606.13477" target="_blank" rel="noopener">paper</a></p>
+          </div>
+        </article>
 
-    <script src="script.js"></script>
+        <article class="pub compact" id="pub-cfgraph">
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag preprint">arXiv 2026</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2605.30653" target="_blank" rel="noopener">Counterfactual Graph for Multi-Agent LLM Calibration</a>
+            <p class="pub-authors">Jiatan Huang, Mingchen Li, <strong>Ziming Li</strong>, Sunjae Kwon, Hong Yu, Chuxu Zhang</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2605.30653" target="_blank" rel="noopener">paper</a></p>
+          </div>
+        </article>
 
-  </body>
+        <article class="pub compact">
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag preprint">arXiv 2026</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2605.06576" target="_blank" rel="noopener">On the Safety of Graph Representation Learning</a>
+            <p class="pub-authors">Xiaoguang Guo, Zehong Wang, <strong>Ziming Li</strong>, Shawn Spitzel, Soonwoo Kwon, Tianyi Ma, Yanfang Ye, Chuxu Zhang</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2605.06576" target="_blank" rel="noopener">paper</a></p>
+          </div>
+        </article>
+
+        <article class="pub compact">
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag preprint">arXiv 2025</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2512.21106" target="_blank" rel="noopener">Semantic Refinement with LLMs for Graph Representations</a>
+            <p class="pub-authors">Safal Thapaliya, Zehong Wang, Jiazheng Li, <strong>Ziming Li</strong>, Yanfang Ye, Chuxu Zhang</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2512.21106" target="_blank" rel="noopener">paper</a></p>
+          </div>
+        </article>
+
+        <article class="pub compact">
+          <div class="pub-body">
+            <div class="pub-tags"><span class="tag preprint">arXiv 2025</span></div>
+            <a class="pub-title" href="https://arxiv.org/abs/2503.23886" target="_blank" rel="noopener">Text2Schema: Filling the Gap in Designing Database Table Structures based on Natural Language</a>
+            <p class="pub-authors">Qin Wang, Youhuan Li, Yansong Feng, Si Chen, <strong>Ziming Li</strong>, Pan Zhang, Zihui Si, Yixuan Chen, Zhichao Shi, Zebin Huang, Guo Chen, Wenqiang Jin</p>
+            <p class="pub-links"><a href="https://arxiv.org/abs/2503.23886" target="_blank" rel="noopener">paper</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Internships -->
+    <section id="experience" class="block">
+      <h2>Internships</h2>
+      <ul class="intern-list">
+        <li class="intern">
+          <img class="intern-logo" src="images/logos/antgroup.webp" alt="Ant Group logo" width="48" height="48">
+          <div class="intern-body">
+            <div class="intern-head">
+              <strong>Ant Group</strong>
+              <span class="intern-date">May 2026 – Aug 2026</span>
+            </div>
+            <p class="intern-role">Research Intern</p>
+            <p class="intern-desc">Training-data optimization for coding agents.</p>
+          </div>
+        </li>
+        <li class="intern">
+          <img class="intern-logo" src="images/logos/tencent.webp" alt="Tencent logo" width="48" height="48">
+          <div class="intern-body">
+            <div class="intern-head">
+              <strong>Tencent</strong>
+              <span class="intern-date">Aug 2023 – Dec 2023</span>
+            </div>
+            <p class="intern-role">Research Intern, ML Platform Department, TEG · Mentor: <a href="https://thomas-young-2013.github.io/" target="_blank" rel="noopener">Yang Li</a></p>
+            <p class="intern-desc">LLM agents for AI4DB.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Service -->
+    <section id="service" class="block">
+      <h2>Academic Service</h2>
+      <div class="columns">
+        <div>
+          <h3>Journal Reviewer</h3>
+          <ul class="plain">
+            <li>Information Fusion</li>
+            <li>ACM Transactions on Intelligent Systems and Technology (TIST)</li>
+            <li>Transactions on Machine Learning Research (TMLR)</li>
+            <li>Data Mining and Knowledge Discovery (DMKD)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Conference Reviewer / PC Member</h3>
+          <ul class="plain">
+            <li>ICML 2026</li>
+            <li>AAAI 2027</li>
+            <li>WSDM 2027</li>
+            <li>CIKM 2026</li>
+            <li>PAKDD 2026</li>
+            <li>ACML 2026</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="block">
+      <h2>Selected Awards</h2>
+      <dl class="timeline">
+        <dt>2026</dt><dd>UConn SoC Predoctoral Fellowship</dd>
+        <dt>2026</dt><dd>NSF ACCESS Allocation Grant</dd>
+        <dt>2024</dt><dd>National Scholarship of China for Graduate Students</dd>
+        <dt>2023</dt><dd>Tencent Hornbill Elite Talent Development Program</dd>
+      </dl>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2026 Ziming Li · Last updated October 2026</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
